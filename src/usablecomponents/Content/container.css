@@ -1,0 +1,86 @@
+.mains{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.5%;
+    margin: 0%;
+}
+
+.main-container{
+    display: flex;
+    padding-top: 2%;
+}
+
+.container1{
+     width: 60%;
+     padding-right: 1.5%;
+     margin: 0;
+}
+.container2{ 
+    padding: 0%;
+    width: 40%;
+    margin: 0;
+}
+.dash{
+    padding: 20px 0px 0px 0px;
+    text-align:start;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 500;
+}
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    width:100%;
+}
+.dashboard1{
+    display: flex;
+    padding-bottom: 16px;
+    gap: 1%;
+}
+.dashboard2{
+    padding-bottom: 16px;
+}
+.Schedule-container{
+    padding-top: 16px;
+    height: 55%;
+}
+.Activity-container{
+    padding: 0;
+}
+
+
+
+@media (max-width: 900px) {
+    .mains{
+        padding-left: 4%;
+    }
+    .main-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container1, .container2 {
+        width: 100%;
+    }
+   
+    .dashboard,.dashboard1,.dashboard2{
+        width:100%;
+        flex-direction: row;
+    }
+
+    .container2{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .Activity-container{
+        width: 44%;
+    }
+    .Schedule-container{
+        width: 54%;
+        padding-top: 0%;
+    }
+
+}

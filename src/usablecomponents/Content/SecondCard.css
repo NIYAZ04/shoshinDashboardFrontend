@@ -1,0 +1,68 @@
+.card2{
+    display:flex;
+    margin: 0%;
+    width: 100%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid #E0E0E0;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+    padding: 0%;
+    margin: 0%;
+}
+.data-title{
+    text-align: left;
+    padding: 0% 4% 2% 6%;
+    font-size: 90%;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.data-number{
+    padding: 0% 4% 2% 6%;
+    margin-bottom: 4%;
+    font-size: 250%;
+    font-weight: 500;
+}
+.data-gender{
+    padding: 0% 4% 2% 6%;
+    margin-top: 10%;
+    font-size: 80%;   
+}
+.male{
+    padding-bottom: 4%;
+}
+
+.percentage-change{
+    width: 50%;    
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.curve{
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+}
+.past{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    border-radius: 4px;
+    margin-top:2% ;
+}
