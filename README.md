@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+This project is a responsive webpage built with React.js as part of the internship assignment. It features reusable components, responsive design, and is hosted on a free hosting platform for review.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Design Link
 
-## Available Scripts
+🚀 Getting Started
+This project was bootstrapped using Create React App.
 
-In the project directory, you can run:
+Prerequisites
+Ensure you have the following installed:
 
-### `npm start`
+Node.js (>= 14.x)
+npm (>= 6.x)
+📦 Installation
+Follow these steps to set up the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+git clone <repository-url>
+cd <project-folder>
+Install dependencies:
 
-### `npm test`
+bash
+Copy code
+npm install
+Run the application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
 
-### `npm run build`
+🛠 Features and Requirements
+Functionalities
+Reusable Components: At least two reusable components created and dynamically rendered.
+Responsive Design: Supports web and one additional breakpoint (mobile or tablet).
+Engaging UI: Styled using CSS to match the provided Figma designs.
+Evaluation Metrics
+Reusability of components.
+Dynamic rendering of components.
+Intuitive, visually appealing, and responsive UI.
+Code quality, modular structure, and adherence to best practices.
+🖌 Development Workflow
+Available Scripts
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 in your browser.
+The page will auto-reload if changes are saved.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run build
+Builds the app for production into the build folder.
+The build is optimized for performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run test
+Launches the test runner for unit tests (if applicable).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run eject
+Used to expose configurations. Use with caution as this is irreversible.
 
-### `npm run eject`
+📐 Responsive Design
+The project supports responsiveness for:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Desktop (default view)
+Mobile or Tablet (choose one)
+Media queries are used to ensure optimal layout and functionality for both breakpoints.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Deployment
+The project has been deployed to a free hosting platform. You can view the live site here:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Live Demo Link
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To deploy the project yourself:
 
-## Learn More
+Build the app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy code
+npm run build
+Deploy to a platform:
+Upload the contents of the build folder to platforms like:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vercel
